@@ -12,6 +12,8 @@
 		776C852E22B7FD9800EAAC4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776C852C22B7FD9800EAAC4A /* Main.storyboard */; };
 		776C853022B7FD9D00EAAC4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 776C852F22B7FD9D00EAAC4A /* Assets.xcassets */; };
 		776C853322B7FD9D00EAAC4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776C853122B7FD9D00EAAC4A /* LaunchScreen.storyboard */; };
+		776C853B22B80D7100EAAC4A /* HoroscopeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776C853A22B80D7100EAAC4A /* HoroscopeVC.swift */; };
+		776C853D22B8254E00EAAC4A /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776C853C22B8254E00EAAC4A /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		776C852F22B7FD9D00EAAC4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		776C853222B7FD9D00EAAC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		776C853422B7FD9D00EAAC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776C853A22B80D7100EAAC4A /* HoroscopeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeVC.swift; sourceTree = "<group>"; };
+		776C853C22B8254E00EAAC4A /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		776C851C22B7FD9700EAAC4A = {
 			isa = PBXGroup;
 			children = (
+				776C853C22B8254E00EAAC4A /* DataModel.swift */,
+				776C853A22B80D7100EAAC4A /* HoroscopeVC.swift */,
 				776C852722B7FD9700EAAC4A /* costar_test */,
 				776C852622B7FD9700EAAC4A /* Products */,
 			);
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				776C852B22B7FD9800EAAC4A /* ViewController.swift in Sources */,
+				776C853D22B8254E00EAAC4A /* DataModel.swift in Sources */,
+				776C853B22B80D7100EAAC4A /* HoroscopeVC.swift in Sources */,
 				776C852922B7FD9800EAAC4A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
